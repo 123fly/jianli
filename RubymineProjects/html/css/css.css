@@ -4,6 +4,8 @@
 .title p{
     color: #ffffff;
     font-size: 50px;
+    text-align: center;
+    word-spacing:20px;
 }
 .container{
     margin: 0;
@@ -13,35 +15,9 @@
 .foot{
     background-color: #000000;
 }
-h6{
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-h2{
-    margin: 0;
-    background-color: #000000;
-    color: #ffffff;
-}
-.title_table{
-    padding: 0;
-}
-.title_table h3{
-    background-color: #000000;
-    color: #ffffff;
-}
- h3{
-    margin: 0;
-    padding: 0;
-}
-.table{
-    margin: 0;
-}
-.table td{
-    padding: 0;
-}
 .input{
     width: 70%;
+    padding: 5px;
 }
 .text{
     width: 30%;
@@ -49,10 +25,46 @@ h2{
 img{
     width: 100px;
     height: 100px;
+    padding: 5px;
 }
 p{
-    width: 70%;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
 }
 .table td{
     border: 1px solid black;
+}
+.footer_title{
+    background-color: #000000;
+    color: #d43f3a ;
+    word-spacing:20px;
+    text-align:center;
+    font-weight: bold ;
+}
+h1,h2,h3,h4,h5{
+   padding: 10px;
+    margin: 0;
+}
+h6{
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+}
+.right h6{
+    text-align: right;
+}
+h2{
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+h1{
+    word-spacing:5px;
+    font-weight: bold ;
+    background-color: #000000;
+    color: #ffffff;
+}
+li{
+    padding: 5px;
 }
